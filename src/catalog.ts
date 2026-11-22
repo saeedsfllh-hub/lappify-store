@@ -344,9 +344,5 @@ export const defaultStoreSettings = {
     { id: 'cards', name: 'Debit / Credit Card (Visa, Mastercard, UnionPay)', enabled: true, details: 'Online card processing requires an activated Pakistani payment gateway and merchant credentials.' },
     { id: 'safepay', name: 'Safepay', enabled: false, details: 'Enable after connecting your Safepay merchant account.' },
     { id: 'payfast', name: 'PayFast', enabled: false, details: 'Enable after connecting your PayFast merchant account.' },
-    { id: 'keenu', name: 'Keenu', enabled: false, details: 'Enable after connecting your Keenu merchant account.' },
-    { id: 'nayapay', name: 'NayaPay', enabled: false, details: 'Wallet transfer. Add your merchant or wallet account details here.' },
-    { id: 'sadapay', name: 'SadaPay', enabled: false, details: 'Bank or wallet transfer. Add your account details here.' },
-    { id: 'upaisa', name: 'UPaisa', enabled: false, details: 'Wallet transfer. Add your merchant or wallet account details here.' },
-  ],
-};
+   
+    
