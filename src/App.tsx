@@ -1,5 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
-import { api, auth } from './appdeploy-stub';
+const api: any = {
+  get: async () => ({ data: null }),
+  post: async () => ({ data: null }),
+  put: async () => ({ data: null }),
+  delete: async () => ({ data: null }),
+};
+
+const auth: any = {
+  getUser: async () => null,
+  login: async () => null,
+  logout: async () => null,
+  onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => {} } } }),
+};
+
 import {
   CheckCircle2,
   ChevronDown,
