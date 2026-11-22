@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  color: #1e293b;
+  background: #f3f6fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f3f6fb;
+}
+.hero-surface {
+  color: #fff;
+  background:
+    radial-gradient(900px 380px at 88% -10%, rgba(34, 211, 238, 0.35), transparent 60%),
+    radial-gradient(800px 460px at 0% 110%, rgba(139, 92, 246, 0.45), transparent 55%),
+    linear-gradient(135deg, #060a1c 0%, #0c1546 55%, #1a0f4d 100%);
+}
+.nav-surface {
+  background: linear-gradient(90deg, #060a1c, #0b1646 55%, #1a1050);
+}
+.nav-bar {
+  background: linear-gradient(90deg, #0a1238, #131a5c 60%, #2a1568);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.promo-strip {
+  background: linear-gradient(90deg, #06b6d4, #6366f1 55%, #a855f7);
+}
+.btn-primary {
+  background: linear-gradient(135deg, #06b6d4, #6366f1 60%, #8b5cf6);
+  color: #fff;
+  box-shadow: 0 8px 22px -10px rgba(99, 102, 241, 0.7);
+}
+.btn-primary:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+.btn-primary:disabled {
+  background: #cbd5e1;
+  box-shadow: none;
+}
+.text-gradient {
+  background: linear-gradient(90deg, #22d3ee, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.field {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+}
+.field:focus {
+  border-color: #06b6d4;
+  box-shadow: 0 0 0 3px #cffafe;
+}
+.adminstat {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 18px;
+}
+.adminstat small {
+  display: block;
+  color: #64748b;
+}
+.adminstat b {
+  display: block;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 4px;
+}
+button {
+  transition: all 0.15s;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+@media (max-width: 640px) {
+  .adminstat b {
+    font-size: 23px;
+  }
+}
