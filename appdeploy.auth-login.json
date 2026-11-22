@@ -1,0 +1,12 @@
+{
+  "headline": "Welcome to PrimeTech",
+  "subtitle": "Sign in or create your account to track orders and check out faster.",
+  "style": {
+    "mode": "dark",
+    "accentColor": "#22d3ee",
+    "backgroundColor": "#070b1a",
+    "panelColor": "#0f1a4a",
+    "textColor": "#ffffff",
+    "borderRadius": 14
+  }
+}
