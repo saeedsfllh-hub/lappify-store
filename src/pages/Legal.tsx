@@ -1,6 +1,12 @@
 import { Children, cloneElement, isValidElement, useState } from 'react';
 import type { FormEvent, ReactNode } from 'react';
-import { api } from '@appdeploy/client';
+const api: any = {
+  get: async () => ({ data: null }),
+  post: async () => ({ data: null }),
+  put: async () => ({ data: null }),
+  delete: async () => ({ data: null }),
+};
+
 import '../blog.css';
 import { WHATSAPP } from '../catalog';
 
